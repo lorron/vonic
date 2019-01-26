@@ -1,6 +1,6 @@
 {
-  "name": "vonic",
-  "version": "2.0.0-beta.19",
+  "name": "mc-ui-vonic",
+  "version": "1.0.0",
   "main": "dist/vonic.min.js",
   "description": "Mobile UI Components, based on Vue.js and ionic CSS.",
   "keywords": [
@@ -14,10 +14,10 @@
     "ui components",
     "spa"
   ],
-  "author": "wangdahoo <157195705@qq.com>",
+  "author": "lorron <122689174@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --host 127.0.0.1 --port 8081",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --host 127.0.0.1 --port 8080",
     "doc": "BUILD=doc node build.js",
     "build": "node build.js"
   },
