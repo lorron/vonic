@@ -30,10 +30,12 @@ import ButtonBar from './components/buttonbar'
 import Scalable from './components/scalable'
 
 // Advanced
-import {Swiper, SwiperItem} from './components/swiper'
+import Swiper from './components/swiper/Swiper'
+import SwiperItem from './components/swiper/SwiperItem'
 import Scroll from './components/scroll'
 import Cascade from './components/cascade'
-import { Accordion, AccordionItem } from './components/accordion'
+import Accordion from './components/accordion/Accordion'
+import AccordionItem from './components/accordion/AccordionItem'
 import Datepicker from './components/datepicker'
 
 // Modal
@@ -82,7 +84,8 @@ export default function install (Vue, options) {
   Vue.component('button-bar', ButtonBar)
   Vue.component('scalable', Scalable)
 
-  // Advanced ComponentsVue.component('swiper', Swiper)
+  // Advanced Components
+  Vue.component('swiper', Swiper)
   Vue.component('swiper-item', SwiperItem)
   Vue.component('scroll', Scroll)
   Vue.component('cascade', Cascade)

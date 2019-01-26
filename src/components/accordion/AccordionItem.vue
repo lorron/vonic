@@ -1,11 +1,8 @@
 <template>
-  <div class="list list-borderless list-accordion"
-    :style="{height: getHeight()}"
-    >
+  <div class="list list-borderless list-accordion" :style="{height: getHeight()}" >
     <item class="item-icon-right" @click.native="onClick()">
       <span v-text="title"></span>
-      <i class="icon ion-arrow-down-b"
-        :class="{'rotated': expanded}"></i>
+      <i class="icon ion-arrow-down-b" :class="{'rotated': expanded}"></i>
     </item>
     <transition name="von-accordion">
       <div v-show="expanded" class="accordion-content">
